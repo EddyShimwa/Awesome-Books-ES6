@@ -1,11 +1,13 @@
 const getBooksag = JSON.parse(localStorage.getItem('books'));
+const booksData = [];
 
 class BooksClass {
   constructor(title, author) {
     this.title = title;
     this.author = author;
   }
-  add() { 
+
+  add = () => {
     const title = document.querySelector('#title').value;
     const author = document.querySelector('#author').value;
     const book = {
@@ -21,10 +23,10 @@ class BooksClass {
       netBooks.push(book);
       localStorage.setItem('books', JSON.stringify(netBooks));
     }
-    location.reload(); 
+    window.location.reload();
   }
 
-  showBooks() { 
+  showBooks = () => {
     const divP = document.querySelector('#booksIn');
     const getBooks = JSON.parse(localStorage.getItem('books'));
 
@@ -42,11 +44,10 @@ class BooksClass {
     }
   }
 
-  del(id) { 
+  del = (id) => {
     getBooksag.splice(id, 1);
     localStorage.setItem('books', JSON.stringify(getBooksag));
   }
 }
 
-export default BooksClass 
-
+export default BooksClass;

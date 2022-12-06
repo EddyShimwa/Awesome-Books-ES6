@@ -23,7 +23,7 @@ nav ul li {
   padding-right: 30px;
 }
 
-h1 { 
+h1 {
   margin-left: 23%;
   color: rgb(43, 95, 226);
 }
@@ -110,6 +110,10 @@ h1 {
   box-sizing: border-box;
 }
 
+#error-message {
+  color: red;
+}
+
 .add {
   width: 50%;
   height: 30px;
@@ -120,6 +124,6 @@ h1 {
 }
 
 footer {
-  color:rgb(20, 94, 198) ;
+  color: rgb(20, 94, 198);
   font-size: 11px;
 }

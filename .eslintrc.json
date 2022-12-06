@@ -12,6 +12,7 @@
     "extends": ["airbnb-base"],
     "rules": {
       "no-shadow": "off",
+      "class-methods-use-this": "off",
       "no-param-reassign": "off",
       "eol-last": "off",
       "import/extensions": [ 1, {
