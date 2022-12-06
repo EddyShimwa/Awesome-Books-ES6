@@ -1,0 +1,125 @@
+body {
+  color: black;
+  text-align: center;
+  font-family: cursive;
+}
+
+nav {
+  background-color: rgb(243, 243, 243);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  color: rgb(43, 95, 226);
+}
+
+nav ul li {
+  padding-right: 30px;
+}
+
+h1 { 
+  margin-left: 23%;
+  color: rgb(43, 95, 226);
+}
+
+.newbook-h2 {
+  color: rgb(87, 127, 229);
+}
+
+#dateTime {
+  display: flex;
+  border: 1px solid rgb(221, 222, 225);
+  height: 35px;
+  width: 20%;
+  float: right;
+  color: rgb(40, 85, 161);
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.books {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.books-in {
+  border: 4px solid rgb(14, 76, 199);
+  width: 60vw;
+}
+
+.no-cards {
+  text-align: center;
+  color: rgb(57, 97, 178);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid rgb(38, 83, 143);
+}
+
+.cards button {
+  border: 1px solid rgb(8, 48, 101);
+  border-radius: 20px;
+  background-color: rgb(70, 129, 205);
+  width: 100px;
+  height: 30px;
+  color: aliceblue;
+}
+
+.form-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  border: 2px solid rgb(20, 94, 198);
+  padding: 10px 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.author {
+  border: 2px solid rgb(20, 94, 198);
+  border-radius: 10px;
+  padding: 10px 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.add {
+  width: 50%;
+  height: 30px;
+  border: 2px solid rgb(13, 92, 171);
+  background-color: rgb(20, 94, 198);
+  color: aliceblue;
+  border-radius: 60px;
+}
+
+footer {
+  color:rgb(20, 94, 198) ;
+  font-size: 11px;
+}
